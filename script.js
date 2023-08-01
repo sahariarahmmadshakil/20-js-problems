@@ -39,13 +39,31 @@
 // const addFirstElement = numbers.unshift(222);
 // console.log(numbers);
 
-const fruits = ['Apple', 'Banana', 'Orange'];
-const banana = fruits.indexOf('Banana');
-console.log(banana);
-fruits[1] = 'Mango';
-console.log(fruits);
-// remove orange 
-fruits.pop();
-console.log(fruits);
-fruits.push('Watermelon');
-console.log(fruits);
+// const fruits = ['Apple', 'Banana', 'Orange'];
+// const banana = fruits.indexOf('Banana');
+// console.log(banana);
+// fruits[1] = 'Mango';
+// console.log(fruits);
+// remove orange
+// fruits.pop();
+// console.log(fruits);
+// fruits.push('Watermelon');
+// console.log(fruits);
+
+// introduction while loop
+
+// write a program to check student in class
+// let student = 0;
+// while (student < 10) {
+//     console.log('polapan class e ashe nai');
+//     student++
+// }
+// find even numbers from 10 
+// let number = 0;
+// while (number <= 10) {
+//     console.log(number);
+//     number++;
+// }
+// for (let number = 0; number <= 10; number++) {
+//     console.log(number)
+// }
