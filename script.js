@@ -20,14 +20,32 @@
 
 // declearation of an array
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-console.log(numbers);
-// get element by index 
-const arrayIndex = numbers[3];
-console.log(arrayIndex);
-// get elements index 
-const elementIndex = numbers.indexOf(3);
-console.log(elementIndex);
-// set array element by index 
-numbers[4] = 35;
-console.log(numbers);
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+// console.log(numbers);
+// get element by index
+// const arrayIndex = numbers[3];
+// console.log(arrayIndex);
+// get elements index
+// const elementIndex = numbers.indexOf(3);
+// console.log(elementIndex);
+// set array element by index
+// numbers[4] = 35;
+// console.log(numbers);
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+// const addLastElement = numbers.push(111);
+// console.log(numbers);
+// adding element in first index
+// const addFirstElement = numbers.unshift(222);
+// console.log(numbers);
+
+const fruits = ['Apple', 'Banana', 'Orange'];
+const banana = fruits.indexOf('Banana');
+console.log(banana);
+fruits[1] = 'Mango';
+console.log(fruits);
+// remove orange 
+fruits.pop();
+console.log(fruits);
+fruits.push('Watermelon');
+console.log(fruits);
