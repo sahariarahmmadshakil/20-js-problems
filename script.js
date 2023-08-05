@@ -72,7 +72,7 @@
 //     console.log(arr[i]);
 // }
 
-// break and continue 
+// break and continue
 // for (let i = 0; i < 20; i++){
     
 //     if (i >= 5) {
@@ -81,3 +81,72 @@
         
 //     }
 // }
+// const arr = [20, 30, 40, 50, 60, 70,40,22,11];
+// for (let i = 0; i < arr.length; i++){
+//     const elements = arr[i];
+//     if (elements > 52) {
+//         continue;
+//     }
+//     console.log(elements);
+
+// }
+
+// understanding loops in reverse way
+// let num = 0;
+// while (num < 10) {
+//     console.log(num);
+//     num++;
+// }
+// reverse way to print this
+// let num = 10;
+// while (num > 0) {
+//     console.log(num);
+//     num--;
+// }
+
+// const fruits = ["Apple", "Banana", "Orange"];
+// console.log(fruits);
+// let bananaIndex = fruits.indexOf("Banana");
+// console.log(bananaIndex)
+// fruits[bananaIndex] = "Mango";
+// console.log(fruits);
+// fruits.pop();
+// console.log(fruits);
+// fruits.push("Watermelon");
+// console.log(fruits);
+
+// let num = 412;
+// while (num <= 456) {
+//     num = (num % 2 !== 0);
+//     console.log(num);
+//     num++;
+// }
+// ru a loop from 30 to 86.
+// if value higher than 44 close the loop
+
+// let num = 30;
+// while (num <= 86) {
+//     console.log(num);
+//     if (num >= 44) {
+//         break
+//     }
+//     num++;
+// }
+
+// const booksPrice = [120, 200, 500, 50, 33, 199, 88, 205, 266];
+// for (let i = 0; i < booksPrice.length; i++){
+//     let prices = booksPrice[i];
+//     if (prices > 200) {
+//         continue;
+//     }
+//     console.log(prices);
+// }
+
+// const name = "Ariana Grande is a good girl";
+// const including = name.includes("na");
+// console.log(including);
+// const booksPrice = [120, 200, 500, 50, 33, 199, 88, 205, 266];
+// const prices = booksPrice.slice(3, 6);
+// console.log(prices);
+// const nameInfo = name.substring(2, 5);
+// console.log(nameInfo)
