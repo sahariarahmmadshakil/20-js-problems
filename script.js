@@ -58,7 +58,7 @@
 //     console.log('polapan class e ashe nai');
 //     student++
 // }
-// find even numbers from 10 
+// find even numbers from 10
 // let number = 0;
 // while (number <= 10) {
 //     console.log(number);
@@ -66,4 +66,18 @@
 // }
 // for (let number = 0; number <= 10; number++) {
 //     console.log(number)
+// }
+// const arr = [20, 30, 40, 50, 60, 70];
+// for (let i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+// break and continue 
+// for (let i = 0; i < 20; i++){
+    
+//     if (i >= 5) {
+//         console.log(i);
+//         continue;
+        
+//     }
 // }
