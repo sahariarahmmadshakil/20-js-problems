@@ -150,3 +150,15 @@
 // console.log(prices);
 // const nameInfo = name.substring(2, 5);
 // console.log(nameInfo)
+
+// let num = Math.round(Math.random()*9000)+1000;
+// console.log(num);
+// declear object 
+const student = {
+    name: 'shakil',
+    age: 20,
+    roll: 213410002,
+    versity: "Eastern University"
+}
+student.age = 25;
+console.log(student)
