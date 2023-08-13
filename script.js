@@ -153,12 +153,50 @@
 
 // let num = Math.round(Math.random()*9000)+1000;
 // console.log(num);
-// declear object 
-const student = {
-    name: 'shakil',
-    age: 20,
-    roll: 213410002,
-    versity: "Eastern University"
+// declear object
+// const student = {
+//     name: 'shakil',
+//     age: 20,
+//     roll: 213410002,
+//     versity: "Eastern University"
+// }
+// student.age = 25;
+// console.log(student)
+// const pcBuilding = {
+//     processor: "intel core i5 11400",
+//     ram: "pny rgb 16*2gb",
+//     storage: "256 gb ssd",
+//     motherboard: "msr pro h510m",
+//     casing: "dark flash Leo",
+// }
+// const motherboard = pcBuilding.motherboard;
+// console.log(motherboard)
+// const motherboard = pcBuilding['motherboard'];
+// console.log(motherboard)
+// const mBoard = 'casing';
+// const board = pcBuilding[mBoard];
+// pcBuilding[mBoard] = "MSI Pro";
+// console.log(pcBuilding);
+// console.log(board);
+
+const ages = {
+    person1: 25,
+    person2: 30,
+    person3: 22,
+    person4: 40,
+    person5: 28,
+    person6: 35
+};
+const keys = Object.keys(ages);
+const values = Object.values(ages);
+for (let i = 0; i < keys.length; i++){
+    const propertyname = keys[i];
+    const propertyValues = ages[propertyname];
+    // console.log(propertyname , propertyValues)
 }
-student.age = 25;
-console.log(student)
+// method -2: for in
+for (let propName in ages) {
+    // console.log(propName);
+    const propValue = ages[propName];
+    console.log(propName, propValue)
+}
