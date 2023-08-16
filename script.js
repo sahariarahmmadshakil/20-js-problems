@@ -242,11 +242,46 @@ const pcBuilding = {
 //     console.log(name, ":",propVal)
 // }
 
+// inch to feet
+// function inchToFeet(inch) {
+//     const feet = inch / 12;
+//     return feet;
+// }
 
-function inchToFeet(inch) {
-    const feet = inch / 12;
-    return feet;
+// const output = inchToFeet(120);
+// console.log(output)
+
+// function isEven(num) {
+//     if (num % 2 == 0) {
+//         console.log(num, "is even");
+//     } else {
+//         console.log(num, "is odd");
+//     }
+// }
+// isEven(256)
+
+// function isOdd(numbers) {
+//     let sum = 0;
+//     for (let i = 0; i < numbers.length; i++){
+//         const element = numbers[i];
+//         sum = sum + element;
+//     }
+//     console.log(sum)
+// }
+
+
+function isOdd(numbers) {
+    let sum = 0;
+    for (let i = 0; i < numbers.length; i++){
+        const element = numbers[i];
+        if (element % 2 !== 0) {
+            sum = sum + element;
+            console.log(element)
+       }
+    }
+    
+    console.log(sum)
 }
 
-const output = inchToFeet(120);
-console.log(output)
+const myNumbers = [5, 10, 15, 20, 25];
+isOdd(myNumbers);
