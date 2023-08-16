@@ -162,13 +162,13 @@
 // }
 // student.age = 25;
 // console.log(student)
-// const pcBuilding = {
-//     processor: "intel core i5 11400",
-//     ram: "pny rgb 16*2gb",
-//     storage: "256 gb ssd",
-//     motherboard: "msr pro h510m",
-//     casing: "dark flash Leo",
-// }
+const pcBuilding = {
+    processor: "intel core i5 11400",
+    ram: "pny rgb 16*2gb",
+    storage: "256 gb ssd",
+    motherboard: "msr pro h510m",
+    casing: "dark flash Leo",
+}
 // const motherboard = pcBuilding.motherboard;
 // console.log(motherboard)
 // const motherboard = pcBuilding['motherboard'];
@@ -179,24 +179,74 @@
 // console.log(pcBuilding);
 // console.log(board);
 
-const ages = {
-    person1: 25,
-    person2: 30,
-    person3: 22,
-    person4: 40,
-    person5: 28,
-    person6: 35
-};
-const keys = Object.keys(ages);
-const values = Object.values(ages);
-for (let i = 0; i < keys.length; i++){
-    const propertyname = keys[i];
-    const propertyValues = ages[propertyname];
-    // console.log(propertyname , propertyValues)
+// const ages = {
+//     person1: 25,
+//     person2: 30,
+//     person3: 22,
+//     person4: 40,
+//     person5: 28,
+//     person6: 35
+// };
+// const keys = Object.keys(ages);
+// const values = Object.values(ages);
+// for (let i = 0; i < keys.length; i++){
+//     const propertyname = keys[i];
+//     const propertyValues = ages[propertyname];
+//     // console.log(propertyname , propertyValues)
+// }
+// // method -2: for in
+// for (let propName in ages) {
+//     // console.log(propName);
+//     const propValue = ages[propName];
+//     console.log(propName, propValue)
+// }
+
+// const ages = {
+//     person1: 25,
+//     person2: 30,
+//     person3: 22,
+//     person4: 40,
+//     person5: 28,
+//     person6: 35
+// };
+// print the object
+// const names = Object.keys(ages);
+// console.log(names);
+// const age = Object.values(ages);
+// console.log(age);
+// let person2Info = ages.person2;
+// ages.person2 = 444;
+// console.log(ages);
+// for (let i = 0; i < names.length; i++){
+//     console.log(names[i])
+// }
+
+// const ages = {
+//     person1: 25,
+//     person2: 30,
+//     person3: 22,
+//     person4: 40,
+//     person5: 28,
+//     person6: 35
+// };
+
+// const names = "person4";
+// ages[names] = 555;
+// console.log(names)
+// console.log(ages)
+// const singleAge = ages[names];
+// console.log(singleAge)
+
+// for (let name in ages) {
+//     const propVal = ages[name];
+//     console.log(name, ":",propVal)
+// }
+
+
+function inchToFeet(inch) {
+    const feet = inch / 12;
+    return feet;
 }
-// method -2: for in
-for (let propName in ages) {
-    // console.log(propName);
-    const propValue = ages[propName];
-    console.log(propName, propValue)
-}
+
+const output = inchToFeet(120);
+console.log(output)
