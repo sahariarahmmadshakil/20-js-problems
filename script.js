@@ -270,18 +270,45 @@ const pcBuilding = {
 // }
 
 
-function isOdd(numbers) {
-    let sum = 0;
-    for (let i = 0; i < numbers.length; i++){
-        const element = numbers[i];
-        if (element % 2 !== 0) {
-            sum = sum + element;
-            console.log(element)
-       }
-    }
+// function isOdd(numbers) {
+//     let sum = 0;
+//     for (let i = 0; i < numbers.length; i++){
+//         const element = numbers[i];
+//         if (element % 2 !== 0) {
+//             sum = sum + element;
+//             console.log(element)
+//        }
+//     }
     
-    console.log(sum)
-}
+//     console.log(sum)
+// }
 
-const myNumbers = [5, 10, 15, 20, 25];
-isOdd(myNumbers);
+// const myNumbers = [5, 10, 15, 20, 25];
+// isOdd(myNumbers);
+// const name = "Ariyana Grande.html"
+// const checkName = name.includes("Grande")
+// check file types
+// if (name.startsWith(".html")) {
+//     console.log("this is an html file")
+// } else {
+//     console.log("Not Html FIle")
+// }
+// if (name.indexOf("yana")!==-1) {
+//     console.log("Exist in code");
+// } else {
+//     console.log("Not Exist In Code")
+// }
+
+// const song = ["az ami", "sonno. sara", "ami ek. ","dishe hara"]
+// const parts = song.split(' ');
+// const char = song.split('');
+// const charDot = song.split('.');
+
+// const cutting = song.slice(5, 10);
+// const cutting2 = song.substring(5, 10);
+// const cutting3 = song.substr(5, 10);
+// console.log(cutting);
+// console.log(cutting2);
+// console.log(cutting3);
+// console.log(song)
+// console.log(song.join('. '))
