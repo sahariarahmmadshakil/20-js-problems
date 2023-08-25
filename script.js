@@ -312,3 +312,41 @@ const pcBuilding = {
 // console.log(cutting3);
 // console.log(song)
 // console.log(song.join('. '))
+
+// destracturing in js
+
+// let first = 20;
+// let second = 30;
+// [first, second] = [second, first]
+
+// console.log(first, second)
+// const myNumbers = [5, 10,100, 15, 20, 25,2,55];
+// let largest = 0;
+// for (let i = 0; i < myNumbers.length; i++)
+// {
+//     let element = myNumbers[i];
+//     if (element > largest) {
+//         largest = element;
+        
+//     }
+  
+// }
+// console.log(largest)
+
+// function removeDuplicate(numbers) {
+//     const unique = [];
+//     for (let number of numbers) {
+        
+//     }
+// }
+// const numbers = [5, 10, 100, 15, 20, 10, 5, 25, 2, 55];
+
+// const date1 = new Date('2023-08-26');
+// const date2 = new Date('2022-08-26');
+// if (date1.getTime() > date2.getTime()) {
+//     console.log('date 1 is big');
+// } else (
+//     console.log('Date 2 is big')
+// )
+
+
