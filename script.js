@@ -350,3 +350,13 @@ const pcBuilding = {
 // )
 
 
+let fruits = ["apple", "banana", "orange", "grape"];
+let person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30,
+    occupation: "developer"
+  };
+console.log(Array.isArray(fruits));
+const age = person.age;
+console.log(isNaN(age))
