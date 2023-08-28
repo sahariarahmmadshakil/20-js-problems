@@ -168,11 +168,38 @@
 //     }
 // }
 // console.log(even);
-// Problem: Find The Even Numbers From An Array 
+// Problem: Find The Even Numbers From An Array
 // const numbers = [42, 19, 73, 58, 91, 66, 29, 84, 37, 10];
 // const even = numbers.filter((n) => n % 2 == 0);
 // console.log(even);
-const numbers = [42, 19, 73, 58, 91, 66, 29, 84, 37, 10];
+// const numbers = [42, 19, 73, 58, 91, 66, 29, 84, 37, 10];
 // const result = numbers.forEach((n) => n);
 // const result = numbers.find((n) => n>40);
 // console.log(result)
+// const numbers = [42, 19, 73, 58, 91, 66, 29, 84, 37, 10];
+// const getReduce = numbers.reduce((p, c) => p+c,0);
+// console.log(getReduce)
+// const evenNumbers = numbers.reduce((result, number) =>
+// number % 2 === 0 ? [...result, number] : result,
+//     []);
+// console.log(evenNumbers)
+
+// let people = [
+//     {
+//         firstName: "John",
+//         lastName: "Doe",
+//         age: 30
+//     },
+//     {
+//         firstName: "Jane",
+//         lastName: "Smith",
+//         age: 25
+//     },
+//     {
+//         firstName: "Michael",
+//         lastName: "Johnson",
+//         age: 30
+//     }
+// ];
+// const getName = people.filter(person => person.age === 30).map(n => n.firstName.slice(0,n.length));
+// console.log(getName)
